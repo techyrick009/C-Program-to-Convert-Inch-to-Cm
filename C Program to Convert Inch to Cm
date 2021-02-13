@@ -1,0 +1,32 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include 
+//#include 
+
+void main() {
+
+  float inch;
+  float cm;
+  
+
+//    clrscr();
+
+	printf(" Program to convert inch to cm :  ");
+
+	printf("\n\n Enter Length in inch  : ");
+	scanf("%f", &inch);
+    
+    cm = (2.54*inch);
+    
+    printf("\n\n %f inch in cm = %f  \n",inch,cm);
+
+
+
+//	getch();
+
+
+
+}
